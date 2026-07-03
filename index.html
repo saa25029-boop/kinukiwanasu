@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>西条市特産品「絹皮なす」のご紹介</title>
+    <style>
+        /* 106: CSSによる背景色や文字色などの装飾 */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333333;
+            background-color: #f7f9fa; /* 薄いグレーの背景 */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background-color: #ffffff; /* コンテンツエリアは白 */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        /* 102: 大見出しの装飾 */
+        h1 {
+            color: #4a277d; /* 茄子をイメージした上品な紫色 */
+            border-bottom: 3px solid #7a4bb7;
+            padding-bottom: 10px;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        h2 {
+            color: #4a277d;
+            font-size: 20px;
+            margin-top: 30px;
+            border-left: 5px solid #7a4bb7;
+            padding-left: 10px;
+        }
+
+        /* 103: 説明文のスタイル */
+        .description {
+            font-size: 16px;
+            text-indent: 1em;
+            margin-bottom: 20px;
+        }
+
+        /* 105: 画像のレスポンシブ対応 */
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* 104: 箇条書き（リスト）のスタイル */
+        ul {
+            background-color: #f0ebf7;
+            padding: 20px 20px 20px 40px;
+            border-radius: 8px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        /* 104: リスト内の詳細テキスト */
+        li span {
+            font-weight: normal;
+            display: block;
+            color: #555;
+        }
+
+        /* 106: 表（table）のスタイル */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #7a4bb7;
+            color: white;
+            width: 25%;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* ボタンエリアのスタイル */
+        .button-container {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        /* 107・108: ボタンの共通スタイル */
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            padding: 12px 24px;
+            margin: 10px;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+        }
+
+        /* 107: ボタン①のカラー */
+        .btn-school {
+            background-color: #2c5234; /* 農業高校をイメージした緑 */
+            color: white;
+        }
+        .btn-school:hover {
+            background-color: #1e3b24;
+        }
+
+        /* 108: ボタン②のカラー */
+        .btn-external {
+            background-color: #e67e22; /* 目立つオレンジ */
+            color: white;
+        }
+        .btn-external:hover {
+            background-color: #d35400;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>西条市が誇る幻の逸品「絹皮なす」</h1>
+
+        <img src="kinukawa-nasu.jpg" alt="絹皮なすの写真" class="product-image">
+
+        <h2>絹皮なすとは？</h2>
+        <p class="description">
+            絹皮なす（きぬかわなす）は、愛媛県西条市で古くから栽培されている伝統的な特産野菜です。
+            その名の通り、絹のように薄くて柔らかい皮と、水分をたっぷりと含んだ緻密で甘みのある果肉が最大の魅力です。
+            一般的なナスに比べて非常に繊細で傷がつきやすく、市場にあまり出回らないことから「幻のなす」とも呼ばれています。
+        </p>
+
+        <h2>おすすめの食べ方・活用法</h2>
+        <ul>
+            <li>生でそのまま「お刺身」
+                <span>皮が非常に薄いため、生のまま薄切りにして生姜醤油やポン酢で食べると、フルーツのような甘みとジューシーさが口いっぱいに広がります。</span>
+            </li>
+            <li>定番の「浅漬け（塩揉み）」
+                <span>水分を多く含む果肉は味が染み込みやすく、軽く塩揉みするだけで、シャキシャキとした食感と爽やかな風味が楽しめます。</span>
+            </li>
+            <li>とろける食感「焼きナス・煮浸し」
+                <span>加熱すると果肉が驚くほどトロトロになり、出汁や旨味をしっかりと吸い込んで絶品の仕上がりになります。</span>
+            </li>
+        </ul>
+
+        <h2>絹皮なすの情報まとめ</h2>
+        <table>
+            <tr>
+                <th>旬の時期</th>
+                <td>6月下旬 〜 10月上旬（夏から秋にかけてが最も美味しい季節です）</td>
+            </tr>
+            <tr>
+                <th>主な産地</th>
+                <td>愛媛県西条市（名水百選「うちぬき」の豊富な水が育んでいます）</td>
+            </tr>
+            <tr>
+                <th>特徴</th>
+                <td>皮が極めて薄く柔らかい、果肉の水分量が多い、アクが少なく甘みが強い</td>
+            </tr>
+        </table>
+
+        <div class="button-container">
+            <a href="https://saijo-ah.esnet.ed.jp/" target="_blank" class="btn btn-school">
+                西条農業高校 公式サイト
+            </a>
+
+            <a href="https://www.ja-zennoh.or.jp/ehime/product/vegetable/kinukawa.html" target="_blank" class="btn btn-external">
+                絹皮なすの詳細情報（外部サイト）
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
